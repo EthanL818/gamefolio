@@ -1,6 +1,8 @@
 import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
+import CLIENT_ID from "./public/apikey.js";
+import TOKEN from "./public/token.js";
 
 const app = express();
 const port = 3000;
@@ -8,8 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
 // authorization variables for API
-const CLIENT_ID = "2ufvpnnvsjit50apeq7yeb5u2cwjab";
-const TOKEN = "oswsbnvgem4a5d0vd6b8yzplhfr8vx"
+
 const API_URL = "https://api.igdb.com/v4/";
 
 // variable to store current game and array for all games
