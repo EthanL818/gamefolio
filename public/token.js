@@ -1,2 +1,2 @@
-const TOKEN = "7bwu9fuxyxmdxbd6tir0s9nnihtekd"
+const TOKEN = "bw345huofvypxs769yh6oucn3y9g4o"
 export default TOKEN;
